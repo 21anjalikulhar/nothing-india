@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    padding-inline: 2%;
+}
+.navbar .log {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar .log img{
+    height: 100%;
+    
+}
+
+.navbar ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+}
+.navbar .icon-part{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.icon-part i{
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+.icon-part #bars{
+    display: none;
+}
+
+
+.hero-part{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 60%;
+    
+}
+.left img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.right{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-inline: 2%;
+}
+.right h1{
+    font-size: 4em;
+}
+.right p{
+    font-size: 1.2em;
+    line-height: 2.5em;
+
+}
+.right .btn-part{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.right button{
+    height: 100%;
+    width: 90%;
+    background-color: #002f6c;
+    border-radius: 2.5em;
+    color: white;
+    font-size: 1.2em;
+    
+    
+}
+.main-container #three p{
+    line-height: 1em;
+    margin-top: 4%;
+}
+
+.main-container #four p{
+    line-height: 1em;
+    margin-block: 4%;
+}
+.main-container #five p{
+    line-height: 1em;
+    margin-block: 3%;
+}
+.main-container #five .btn-part{
+    margin-top: 1%;
+}
+#five .btn-part span{
+    height: auto;
+    width: 90%;
+}#five button{
+    width: 100%;
+    margin-bottom: 10%;
+    
+}
+#five a{
+    text-decoration: none;
+    color: #002f6c;
+    font-size: 1.3em;
+}
+#five .left #img2{
+    height: 10%;
+    width: 15%;
+    position: relative;
+    z-index: 2;
+    left: 80%;
+    bottom: 15%;
+
+}
+#seven .left img{
+    position: relative;
+    z-index: 1;
+}
+#seven .left #img2{
+    height: 10%;
+    width: 15%;
+    position: relative;
+    z-index: 2;
+    left: 80%;
+    bottom: 15%;
+
+}
+#seven .left img{
+    position: relative;
+    z-index: 1;
+}
+.main-container #eight p{
+    line-height: 1em;
+    margin-top:4%;
+}
+#eight .btn-part{
+    margin-top: 4%;
+}
+.main-container #nine p{
+    line-height: 1em;
+    margin-top: 4%;
+}
+.main-container #nine .btn-part{
+    margin-top: 2%;
+}
+#nine .btn-part span{
+    height: auto;
+    width: 90%;
+}#nine button{
+    width: 100%;
+    margin-bottom: 10%;
+    
+}
+#nine a{
+    text-decoration: none;
+    color: #002f6c;
+    font-size: 1.3em;
+}
+#nine .left img{
+    position: relative;
+    z-index: 1;
+}
+#nine .left #img2{
+    height: 10%;
+    width: 20%;
+    position: relative;
+    z-index: 2;
+    left: 80%;
+    bottom: 15%;
+
+}
+#nine .left img{
+    position: relative;
+    z-index: 1;
+}
+.mid-part{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-block: 8%;
+    padding-inline: 5%;
+    text-align: center;
+    justify-content: space-between;
+}
+.mid-part h1{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.mid-part h2{
+    font-size: 1.8em;
+    font-weight: 100;
+}
+.end-part{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.lefty{
+    height: auto;
+    width: 50%;
+    display: flex;
+    padding-block: 5%;
+    padding-inline: 4%;
+    justify-content: space-between;
+}
+.lefty ul{
+    list-style: none;
+}
+.lefty .parta #second{
+    margin-top: 20%;
+}
+.righty{
+    height: auto;
+    width: 50%;
+    padding-left: 5%;
+}
+.righty h2{
+    font-weight: 100;
+    padding-top: 15%;
+    margin-bottom: 5%;
+    
+}
+.righty input{
+    height: 12%;
+    width: 70%;
+    background-color: transparent;
+    border-radius: 18px;
+    border: 1px solid white;
+    padding-left: 3%;
+
+}
+.righty ::placeholder{
+    color: white;
+    font-size: 1.2em;
+
+}
+.last-part{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-block: 4%;
+    padding-inline: 3%;
+    justify-content: space-between;
+}
+.last-part .para-part{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+}
+.icons-part{
+    height: auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-part i{
+    font-size: 1.8em;
+}
+@media (max-width:1000px){
+    .main-container{
+        height: 150vh;
+        width: 100%;
+    }
+    .navbar ul{
+        width: 70%;
+        margin-left: 0%;
+    }
+    .navbar ul li{
+        font-size: 0.8em;
+    }
+    .hero-part{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-part .left{
+        height: 65%;
+        width: 100%;
+    }
+    .hero-part .right{
+        height: 35%;
+        width: 100%;
+        
+    }
+    .right h1{
+        font-size: 2em;
+    
+    }
+    .right p{
+        font-size: 1em;
+        line-height: 1.4em;
+    
+    }
+    .right .btn-part{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .right button{
+        height: 100%;
+        width: 95%;
+        margin-top: 1%;    
+    }
+    .main-container #three p{
+        line-height: 1em;
+        margin-top: 2%;
+    }
+    
+    .main-container #four p{
+        line-height: 1em;
+        margin-block: 4%;
+    }
+.main-container #five p{
+    line-height: 1em;
+    margin-block: 1%;
+}
+.main-container #five .btn-part{
+    margin-top: 0%;    
+}
+#five button{
+    margin-bottom: 1%;    
+}
+#five a{
+    font-size: 1em;
+}
+.main-container #eight p{
+    line-height: 1em;
+    margin-top:1%;
+}
+#eight .btn-part{
+    margin-top: 2%;
+}
+.main-container #nine p{
+    line-height: 1em;
+    margin-top: 1%;
+}
+.main-container #nine .btn-part{
+    margin-top: 2%;
+}
+#nine button{
+    width: 100%;
+    margin-bottom: 2%;   
+}
+#nine a{
+    font-size: 1em;
+}
+.last-part .para-part{
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+.icons-part{
+    height: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+}
+    @media (max-width:768px) {
+        .navbar{
+            justify-content: space-between;
+            padding-inline: 5%;
+        }
+        .navbar ul{
+            display: none;
+        }
+        .icon-part #bars{
+            display: inline;
+        }
+        .navbar .icon-part{
+            width: auto;
+        }
+        .navbar .icon-part2 {
+            display: inline;
+            display: flex;
+            align-items: center;
+        }
+        .mid-part{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-between;
+            padding-bottom: 10%; 
+        }
+        .mid-part .part{
+            margin-top: 3%;
+        }
+        .mid-part h1{
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .mid-part h2{
+            font-size: 1.5em;
+            font-weight: 100;
+        }
+        .end-part{
+            height: auto;
+            width: 100%;
+            flex-direction: column-reverse;
+        }
+        .lefty{
+            height: auto;
+            width: 100%;
+            display: flex;
+            padding-block: 5%;
+            padding-inline: 5%;
+        }
+         
+        .righty{
+            height: auto;
+            width: 100%;
+
+        }
+        
+        .righty input{
+            height: 4em;
+            width: 90%;        
+        }
+        .last-part .para-part{
+            height: auto;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            font-size: 1em;
+        }
+        .icons-part i{
+            font-size: 1.5em;
+        }
+        
+        
+
+        
+        
+    }
+    @media (max-width:480px) {
+        .main-container{
+            height: 100vh;
+            width: 100%;
+        }
+        .hero-part{
+            height: 90%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .hero-part .left{
+            height: 55%;
+            width: 100%;
+        }
+        .hero-part .right{
+            height: 45%;
+            width: 100%;
+            
+        }
+        #five button{
+            margin-bottom: 3%;    
+        }
+        #nine button{
+            width: 100%;
+            margin-bottom: 3%;   
+        }
+        .mid-part h1{
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+        .mid-part h2{
+            font-size: 1em;
+            font-weight: 100;
+        }
+        .mid-part .part{
+            margin-top: 5%;
+        }
+        .last-part .para-part{
+            height: auto;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            font-size: 0.8em;
+        }
+        .last-part #india{
+            display: none;
+        }
+        .icons-part{
+            width: 60%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+       
+            
+        
+
+        
+        
+    
+        
+
+        
+    }
+    @media (max-width:300px) {
+        .navbar .icon-part{
+            font-size: 0.8em;
+    
+        }
+        .icon-part i{
+           margin-left: 0%;
+
+        }
+        .icon-part #bars{
+            display: none;
+        }
+        .main-container{
+            height: 100vh;
+            width: 100%;
+        }
+        .hero-part{
+            height: 90%;
+            width: 100%;
+        }
+        .hero-part .left{
+            height: 50%;
+            width: 100%;
+        }
+        .hero-part .right{
+            height: 50%;
+            width: 100%;
+            padding-inline: 5%;
+        }
+        .right h1{
+            font-size: 1.5em;
+        
+        }
+        .right p{
+            font-size: 0.8em;
+            line-height: 1.4em;
+        
+        }
+        .right .btn-part{
+            height: 15%;
+            width: 100%;
+        }
+        .right button{
+            height: 100%;
+            font-size: 0.8em;
+        }
+        .main-container #three p{
+            line-height: 1em;
+            margin-top: 4%;
+        }
+        
+    .main-container #five p{
+        line-height: 1em;
+        margin-block: 3%;
+    }
+    
+    #five button{
+        margin-bottom: 3%;    
+    }
+    
+    .main-container #eight p{
+        line-height: 1em;
+        margin-top:4%;
+    }
+    #eight .btn-part{
+        margin-top: 4%;
+    }
+    .main-container #nine p{
+        line-height: 1em;
+        margin-top: 4%;
+    }
+    .main-container #nine .btn-part{
+        margin-top: 4%;
+    }
+    #nine button{
+        width: 100%;
+        margin-bottom: 4%;   
+    }
+    .righty h2{
+        font-size: 1em;
+        text-align: center;
+    }
+     .righty input{
+       height:3em;
+    }
+    .righty ::placeholder{
+        font-size: 0.8em;
+    }
+    .lefty h3{
+        font-size: 1em;
+    }
+    .lefty li{
+        font-size: 0.8em;
+    }
+    .lefty{
+        padding-inline: 5%;
+    }
+    .icons-part{
+        width: 60%;
+        font-size: 0.7em;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    
+
+        
+    }
